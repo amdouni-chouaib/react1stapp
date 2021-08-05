@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 import Table from 'react-bootstrap/Table'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import '../styles/content.css'
-const content = () => {
+const Content = () => {
     return (
         <div className='core'>
            <div className="div1">
@@ -64,10 +64,10 @@ const content = () => {
             </div>
             <div>
                 <h1>Voting States From Guests</h1> <br/><br/>
-            <ProgressBar variant="success" animated now={45} />
+            <ProgressBar variant="success" animated now={70} />
             </div>
         </div>
     )
 }
 
-export default content
+export default Content
